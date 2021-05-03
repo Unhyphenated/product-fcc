@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Cherry;
+    src: URL(cherry)
+}
+body {
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    background: #ffffff;
+}
+
+.top-nav {
+    float: right;
+    padding: 95px 10px;
+    font-size: 25px;
+    font-family: Cherry;
+    color: black;
+}
