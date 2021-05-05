@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html>
-
+    <link rel="stylesheet" type="text/css" href=style.css>
     <head>
         <title>Terabotics Product Page</title>
     </head>
-        <body>
-            <div class="container">
-                <header>   
-                    <img id="header-img" src="https://www.brandbucket.com/sites/default/files/logo_uploads/281409/large_terabotics.png" alt="Logo">
-                    <link rel="stylesheet" type="text/css" href="style.css">
-                    <div class="top-nav">
-                        <nav id="nav-bar">
-                            <a href="/home/">Home</a>
-                            <a href="/features/">Features</a>
-                            <a href="/models/">Models</a>
-                            <a href="/pricing/">Pricing</a>
-                            <a href="/updates/">Updates</a>
-                            <a href="/contact/">Contact</a>
-                        </nav>
-                    </div>
-                </header>
+    <body>
+        <!--Company Logo-->
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" 
+                src="https://www.brandbucket.com/sites/default/files/logo_uploads/281409/large_terabotics.png"
+                alt="terabotics logo"/>
             </div>
-        </body>
+            
+            <!--Navigation Bar-->
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#models">Models</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--User email for updates-->
+        <div>
+            <form id="form" action="/new.php">
+                <label id="email-label" for="email">Subscribe to our centurial newsletter</label><br>
+                <input type="email" id="email" name="email" placeholder="johnsmith@johnsmith.com" size="30"><br>
+                <label id="submit-label" for="submit"></label><br>
+                <a href="https://www.freecodecamp.com/email-submit">
+                <input type="submit" id="submit" name="submit"/>
+                </a>
+            </form>
+            
+            <!--Headers-->
+            <h2 id="features">Features</h2>
+                <p><b>Terabotics</b> is greatly cottage thought fortune no mention he. Of mr certainty arranging am smallness by conveying. Him plate you allow built grave. Sigh sang nay sex high yet door game. She dissimilar was favourable unreserved nay expression contrasted saw. Past her find she like bore pain open. Shy lose need eyes son not shot. Jennings removing are his eat dashwood. Middleton as pretended listening he smallness perceived. Now his but two green spoil drift. 
+                </p>
+            
+            <h2 id="models">Models</h2>
+                <p><b>Our first model</b> performed suspicion in certainty so frankness by attention pretended. Newspaper or in tolerably education enjoyment. Extremity excellent certainty discourse sincerity no he so resembled. Joy house worse arise total boy but. Elderly up chicken do at feeling is. Like seen drew no make fond at on rent. Behaviour extremely her explained situation yet september gentleman are who. Is thought or pointed hearing he.
+                </p>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/fn3KWM1kuAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!--Models & Pricing-->
+            <h2 id="pricing">Pricing</h2>
+                <h3 id="mark-I">Mark I</h3>
+                <h2>250 IRR</h2>
+                <p>Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at.
+                </p>
+
+                <h3 id="mark-II">Mark II</h3>
+                <h2>500 IRR</h2>
+                <p>No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young.
+                </p>
+
+                <h3 id="mark-X">Mark X</h3>
+                <h2>1500 IRR</h2>
+                <p>Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he.
+                </p>
+
+            <h2 id="contact">Contact</h2>
+        </div>
+    </body>
+    
 </html>
